@@ -1,0 +1,35 @@
+aside{
+    display: flex;
+    flex-basis: 18%;
+    top: 54px;
+    margin-top: 53px;
+    position: sticky;
+    padding: 28px 0;
+    border-radius: 25px;
+    height: 100%;
+    background-color: #fff;
+}
+.aside {
+    &__content{
+        padding: 0 24px;
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        ul {
+            line-height: 1.1;
+            list-style-type: none;
+            li a {
+
+                font-size: 14px;
+                text-decoration: none;
+                color: inherit;
+                &:hover {
+                    color: purple;
+                }
+            }
+        }
+    }
+
+}
