@@ -7,7 +7,7 @@ $(document).ready(function(){
         }
     });
   
-    $("a[href^='#up']").click(function(e){
+    $("a[href^='#']").click(function(e){
         e.preventDefault(); // предотвращает стандартное поведение ссылки
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top}, 800);
